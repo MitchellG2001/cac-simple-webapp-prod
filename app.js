@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000
 const HOSTNAME = os.hostname()
 
 app.get('/', function (req, res) {
-  res.send(util.format('Welcome to %s the current time is %d.', HOSTNAME, new Date())) 
+  res.send(util.format('Welcome mitch to %s the current time is %d.', HOSTNAME, new Date())) 
 })
 
 var server = app.listen(PORT, function() {
